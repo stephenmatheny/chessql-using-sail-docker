@@ -1,7 +1,6 @@
 
-import ApplicationLogo from '@/Components/DefaultComponents/ApplicationLogo';
+import { ApplicationLogo, Dropdown } from '@/Components/DefaultComponents';
 import { Link } from '@inertiajs/react';
-import Dropdown from '@/Components/DefaultComponents/Dropdown';
 
 const PageHeader = ({ user }) => {
     const rgb = "rgb(207 250 254)";

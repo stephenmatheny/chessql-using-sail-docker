@@ -1,6 +1,5 @@
 import React from "react";
-import SimpleCard from "../DefaultComponents/SimpleCard";
-import SimpleCardImage from "../DefaultComponents/SimpleCardImage";
+import { SimpleCard, SimpleCardImage }  from '@/Components/DefaultComponents';
 import { IconCalendarWeek, IconChevronRight, IconMapPin, IconUsers } from "@tabler/icons-react";
 import PrimaryLink from "../DefaultComponents/PrimaryLink";
 

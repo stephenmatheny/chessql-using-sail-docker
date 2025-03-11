@@ -1,6 +1,5 @@
 import { IconMapPin } from "@tabler/icons-react";
-import SimpleCardImage from "../DefaultComponents/SimpleCardImage";
-import ProfileLink from "../DefaultComponents/ProfileLink";
+import { SimpleCardImage, ProfileLink } from '@/Components/DefaultComponents';
 
 export default function ClubHeader() {
     return (

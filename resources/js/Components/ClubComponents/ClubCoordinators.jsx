@@ -1,4 +1,4 @@
-import ProfileLink from "../DefaultComponents/ProfileLink";
+import { ProfileLink } from '@/Components/DefaultComponents';
 
 export default function ClubCoordinators()
 {

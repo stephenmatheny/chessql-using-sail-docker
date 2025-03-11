@@ -1,4 +1,4 @@
-import DefaultContainer from "../DefaultComponents/DefaultContainer";
+import { DefaultContainer } from '@/Components/DefaultComponents';
 import { ClubCard } from '@/Components/ClubComponents';
 
 export default function ClubList({ auth, permissions }) {

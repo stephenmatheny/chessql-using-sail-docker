@@ -1,5 +1,5 @@
 import PageHeader from "../Dynamic/PageHeader.jsx";
-import WebNavigation from "../Components/DefaultComponents/WebNavigation.jsx";
+import { WebNavigation }  from '@/Components/DefaultComponents';
 
 const WebLayout = ({ user, children }) => {
     return (

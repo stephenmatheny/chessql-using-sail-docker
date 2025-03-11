@@ -1,7 +1,7 @@
 import { BackToClub, ClubHeader, ClubCoordinators, ClubDetails } from '@/Components/ClubComponents';
+import { DefaultContainer } from '@/Components/DefaultComponents';
 import MainLayout from '@/Layouts/MainLayout';
 import { Head } from '@inertiajs/react';
-import DefaultContainer from '@/Components/DefaultComponents/DefaultContainer';
 
 export default function Club({ auth, permissions }) {
     return (
