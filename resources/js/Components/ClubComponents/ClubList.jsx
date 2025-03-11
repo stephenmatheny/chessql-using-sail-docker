@@ -5,7 +5,7 @@ export default function ClubList({ auth, permissions }) {
     return (
         <>
             <DefaultContainer>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                     <div>
                         <ClubCard imageUrl="https://picsum.photos/3840/2160?random=2" clubId={2} />
                     </div>

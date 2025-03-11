@@ -1,6 +1,9 @@
 export { default as BackToClub } from './BackToClub';
 export { default as ClubCard } from './ClubCard';
-export { default as ClubCoordinators } from './ClubCoordinators';
+export { default as PlayerList } from './PlayerList';
+export { default as ClubDetailsCard } from './ClubDetailsCard';
+export { default as ClubDetailsTablist } from './ClubDetailsTablist';
 export { default as ClubDetails } from './ClubDetails';
-export { default as ClubList } from './ClubList';
 export { default as ClubHeader } from './ClubHeader';
+export { default as ClubList } from './ClubList';
+export { default as ClubMembersCard } from './ClubMembersCard';

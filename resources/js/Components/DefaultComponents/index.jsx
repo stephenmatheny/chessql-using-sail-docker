@@ -15,5 +15,6 @@ export { default as ResponsiveNavLink } from './ResponsiveNavLink';
 export { default as SecondaryButton } from './SecondaryButton';
 export { default as SimpleCard } from './SimpleCard';
 export { default as SimpleCardImage } from './SimpleCardImage';
+export { default as TabButton } from './TabButton';
 export { default as TextInput } from './TextInput';
 export { default as WebNavigation } from './WebNavigation';
