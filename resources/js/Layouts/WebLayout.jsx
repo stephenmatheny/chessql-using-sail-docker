@@ -3,7 +3,7 @@ import { WebNavigation }  from '@/Components/DefaultComponents';
 
 const WebLayout = ({ user, children }) => {
     return (
-        <div className="hidden sm:flex justify-start min-h-screen bg-cyan-100 dark:bg-cyan-900">
+        <div className="hidden sm:flex xs:flex justify-start min-h-screen bg-cyan-100 dark:bg-cyan-900">
             <WebNavigation />
 
             <div className="flex flex-col size-full">

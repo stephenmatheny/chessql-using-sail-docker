@@ -1,11 +1,11 @@
 import { ProfileLink } from '@/Components/DefaultComponents';
 
-export default function ClubCoordinators()
+export default function PlayerList({ title })
 {
     return (
         <>
-            <h3 className="text-xs font-semibold dark:text-cyan-200 py-1">Coordinators</h3>
-            <div className="grid grid-cols-auto gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8">
+            <h3 className="text-xs font-semibold py-1">{title}</h3>
+            <div className="grid gap-2 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
                 <ProfileLink
                     imageUrl="https://picsum.photos/200?random=1"
                     fullName="Stephen Matheny"

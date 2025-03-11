@@ -7,7 +7,7 @@ const MobileLayout = ({ user, children }) => {
         <div className="flex flex-col size-full min-h-screen">
             <PageHeader user={user} />
 
-            <main className="flex-grow">{children}</main>
+            <main className="flex-grow px-4">{children}</main>
 
             <MobileNavigation />
         </div>
