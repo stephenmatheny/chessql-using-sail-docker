@@ -13,7 +13,7 @@ const NavigationIcons = () => {
                     </span>
                 </IconContainer>
 
-                <IconContainer href="/club">
+                <IconContainer href="/clubs">
                     <IconUsersGroup color={rgb} />
                     <span className={'text-logo-rgb'}>
                         Club

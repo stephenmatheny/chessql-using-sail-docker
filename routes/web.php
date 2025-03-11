@@ -21,7 +21,8 @@ Route::get('/', function () {
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 
-    Route::get('/club', [ClubController::class, 'index'])->name('club.index');
+    Route::get('/clubs', [ClubController::class, 'index'])->name('club.index');
+    Route::get('/clubs/{id}', [ClubController::class, 'page'])->name('club.page');
 
     Route::get('/tournament', [TournamentController::class, 'index'])->name('tournament.index');
 

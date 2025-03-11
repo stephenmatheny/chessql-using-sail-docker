@@ -2,13 +2,13 @@ import ClubList from '@/Components/ClubComponents/ClubList';
 import MainLayout from '@/Layouts/MainLayout';
 import { Head } from '@inertiajs/react';
 
-export default function Club({ auth, permissions }) {
+export default function Clubs({ auth, permissions }) {
     return (
         <>
             <MainLayout
                 user={auth.user}
             >
-                <Head title="Club" />
+                <Head title="Clubs" />
                 
                     <ClubList />
 
