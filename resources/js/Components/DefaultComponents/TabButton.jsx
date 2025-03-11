@@ -1,6 +1,6 @@
 export default function TabButton({ label, isActive, onClick }) {
-    const activeClass = "bg-cyan-700 hover:bg-cyan-800";
-    const inactiveClass = "bg-cyan-500 hover:bg-cyan-700";
+    const inactiveClass = "bg-cyan-700 hover:bg-cyan-800";
+    const activeClass = "bg-cyan-500 hover:bg-cyan-700";
 
     return (
         <button
