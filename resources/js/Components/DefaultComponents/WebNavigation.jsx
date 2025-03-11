@@ -1,4 +1,4 @@
-import NavigationIcons from '../Dynamic/NavigationIcons.jsx';
+import NavigationIcons from '../../Dynamic/NavigationIcons.jsx';
 
 const WebNavigation = () => {
     return (

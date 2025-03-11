@@ -14,6 +14,6 @@ class TournamentController extends Controller
 
     public function index(): Response
     {
-        return Inertia::render('Tournament');
+        return Inertia::render('Tournament/Tournament');
     }
 }

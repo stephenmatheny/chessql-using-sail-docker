@@ -1,9 +1,10 @@
 import { IconMapPin } from "@tabler/icons-react";
-import SimpleCardImage from "../SimpleCardImage";
+import SimpleCardImage from "../DefaultComponents/SimpleCardImage";
+import ProfileLink from "../DefaultComponents/ProfileLink";
 
 export default function ClubHeader() {
     return (
-        <div className="relative mb-8 overflow-hidden rounded-xl">
+        <div className="relative overflow-hidden rounded-xl">
             <div className="relative h-64 w-full sm:h-80 md:h-96">
                 <img src="https://picsum.photos/3840/2160?random=2" alt="Club-name" className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

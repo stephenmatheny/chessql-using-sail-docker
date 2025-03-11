@@ -1,5 +1,5 @@
 import PageHeader from "../Dynamic/PageHeader";
-import MobileNavigation from "../Components/MobileNavigation.jsx";
+import MobileNavigation from "../Components/DefaultComponents/MobileNavigation.jsx";
 
 const MobileLayout = ({ user, children }) => {
  return (
