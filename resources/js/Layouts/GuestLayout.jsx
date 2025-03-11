@@ -1,4 +1,4 @@
-import ApplicationLogo from '@/Components/ApplicationLogo';
+import { ApplicationLogo } from '@/Components/DefaultComponents';
 import { Link } from '@inertiajs/react';
 
 export default function GuestLayout({ children }) {

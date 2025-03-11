@@ -1,4 +1,4 @@
-import ClubList from '@/Components/ClubComponents/ClubList';
+import { ClubList } from '@/Components/ClubComponents';
 import MainLayout from '@/Layouts/MainLayout';
 import { Head } from '@inertiajs/react';
 

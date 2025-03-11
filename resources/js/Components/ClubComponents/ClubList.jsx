@@ -1,5 +1,5 @@
-import DefaultContainer from "../DefaultContainer";
-import ClubCard from "./ClubCard";
+import { DefaultContainer } from '@/Components/DefaultComponents';
+import { ClubCard } from '@/Components/ClubComponents';
 
 export default function ClubList({ auth, permissions }) {
     return (

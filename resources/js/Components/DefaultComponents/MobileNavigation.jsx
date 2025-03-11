@@ -1,4 +1,4 @@
-import NavigationIcons from '../Dynamic/NavigationIcons';
+import NavigationIcons from '../../Dynamic/NavigationIcons';
 
 const MobileNavigation = () => {
     return (

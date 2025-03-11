@@ -1,6 +1,5 @@
-import BackToClub from '@/Components/ClubComponents/BackToClub';
-import ClubHeader from '@/Components/ClubComponents/ClubHeader';
-import DefaultContainer from '@/Components/DefaultContainer';
+import { BackToClub, ClubHeader, ClubCoordinators, ClubDetails } from '@/Components/ClubComponents';
+import { DefaultContainer } from '@/Components/DefaultComponents';
 import MainLayout from '@/Layouts/MainLayout';
 import { Head } from '@inertiajs/react';
 
@@ -14,10 +13,11 @@ export default function Club({ auth, permissions }) {
                 
                 <DefaultContainer>
                     <BackToClub />
-
-                    <div className="relative mb-8 overflow-hidden rounded-xl">
+                    <div className="relative bg-green-100 overflow-hidden rounded-xl">
                         <ClubHeader />
                     </div>
+                    <ClubCoordinators />
+                    <ClubDetails />
                 </DefaultContainer>
 
             </MainLayout>

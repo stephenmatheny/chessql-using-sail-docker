@@ -14,6 +14,6 @@ class ToolsController extends Controller
 
     public function index(): Response
     {
-        return Inertia::render('Tools');
+        return Inertia::render('Tools/Tools');
     }
 }

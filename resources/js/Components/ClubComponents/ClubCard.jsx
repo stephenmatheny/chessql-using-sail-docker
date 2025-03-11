@@ -1,9 +1,7 @@
 import React from "react";
-import SimpleCard from "../SimpleCard";
-import SimpleCardImage from "../SimpleCardImage";
+import { SimpleCard, SimpleCardImage }  from '@/Components/DefaultComponents';
 import { IconCalendarWeek, IconChevronRight, IconMapPin, IconUsers } from "@tabler/icons-react";
-import ProfileLink from "../ProfileLink";
-import PrimaryLink from "../PrimaryLink";
+import PrimaryLink from "../DefaultComponents/PrimaryLink";
 
 export default function ClubCard({ imageUrl, clubId }) {
     const rgb = "rgb(114, 238, 255)";
@@ -34,7 +32,7 @@ export default function ClubCard({ imageUrl, clubId }) {
                         </div>
                     </div>
 
-                    <h3 className="pt-4 mb-2 text-sm font-semibold">Coordinators</h3>
+                    {/* <h3 className="pt-4 mb-2 text-sm font-semibold">Coordinators</h3>
                     <div className="grid gap-1">
                         <ProfileLink
                             imageUrl="https://picsum.photos/200?random=1"
@@ -52,7 +50,7 @@ export default function ClubCard({ imageUrl, clubId }) {
                             imageUrl="https://picsum.photos/200?random=4"
                             fullName="Bill Row"
                         />
-                    </div>
+                    </div> */}
 
                     <div className="pt-4 flex justify-end">
                         <PrimaryLink href={"clubs/" + 1}>
