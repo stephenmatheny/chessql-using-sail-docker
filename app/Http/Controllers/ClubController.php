@@ -14,6 +14,11 @@ class ClubController extends Controller
 
     public function index(): Response
     {
-        return Inertia::render('Club');
+        return Inertia::render('Club/Clubs');
+    }
+
+    public function page($id): Response
+    {
+        return Inertia::render('Club/Club');
     }
 }
