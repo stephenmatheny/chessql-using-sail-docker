@@ -18,7 +18,7 @@ export default function ClubHeader() {
                         <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl">Grand Masters Chess Club</h1>
                         <p className="text-sm text-gray-200 sm:text-base">
                             <IconMapPin className="mr-1 inline-block h-4 w-4" />
-                            Lufkin, TX • Est. 2005
+                            Lufkin, TX • Est. 2010
                         </p>
                     </div>
                 </div>
