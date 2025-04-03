@@ -4,6 +4,22 @@
 PROJECT_DIR="./"
 cd "$PROJECT_DIR" || { echo "Failed to navigate to project directory"; exit 1; }
 
+# Function to stop running processes if they exist
+stop_process() {
+    PROCESS_NAME=$1
+    PID=$(pgrep -f "$PROCESS_NAME")
+    if [ -n "$PID" ]; then
+        echo "Stopping $PROCESS_NAME..."
+        kill -9 "$PID"
+        echo "$PROCESS_NAME stopped"
+    fi
+}
+
+# Stop existing services if they are running
+stop_process "php artisan serve"
+stop_process "npm run dev"
+stop_process "npm run storybook"
+
 # Start Laravel Sail in detached mode
 ./vendor/bin/sail up -d
 
