@@ -1,4 +1,5 @@
-import ProfileLink from '~/stories/ProfileLink.stories';
+import ProfileLink from '@stories/components/ProfileLink/ProfileLink';
+
 
 export default function PlayerList({ title })
 {
