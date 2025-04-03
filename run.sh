@@ -16,7 +16,11 @@ echo "Started npm dev server"
 
 # Start the Laravel development server and log output
 nohup php artisan serve > storage/logs/laravel-server.log 2>&1 &
-echo "Started Laravel server"
+echo "Started Laravel server: localhost"
+
+# Start Storybook
+nohup npm run storybook > storybook.log 2>&1 &
+echo "Started Storybook server: 6006"
 
 # Display running processes
 ps aux | grep -E "npm|artisan" | grep -v grep
