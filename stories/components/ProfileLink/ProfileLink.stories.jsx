@@ -7,7 +7,14 @@ export default {
 
 export const Default = {
     args: {
-        imageUrl: "https://picsum.photos/200?random=1",
-        fullName: "Stephen Matheny"
-    }
+        imageUrl: "https://picsum.photos/200?random=2",
+        fullName: "Test Users",
+        variant: "primary"
+    },
+    argTypes: {
+        variant: {
+            options: ['primary', 'secondary'],
+            control: { type: 'radio' },
+        },
+    },
 }
